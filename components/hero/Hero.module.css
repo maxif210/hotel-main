@@ -1,0 +1,35 @@
+.hero {
+    grid-area: hero;
+    background-image: url("../../public/header/hero-1920.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    min-height: 100vh;
+    display: flex;
+    align-items: flex-end;
+  }
+  
+  .promotion {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+  }
+  
+  .promotion h2 {
+    font-size: 3.5rem;
+    color: var(--white);
+    font-weight: bold;
+  }
+  
+  .promotion h3 {
+    font-size: 2rem;
+    color: var(--white);
+    font-weight: 400;
+  }
+  
+
+  @media (max-width: 768px) {
+    .hero {
+      min-height: 100vh;
+    }
+  }
