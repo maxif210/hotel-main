@@ -16,7 +16,7 @@ const Departments = () => {
           </div>
           <div className={styles.departmentContainer}>
             <div className={styles.departmentCard}>
-              <Image src={room1} alt="habitacion" />
+              <Image src={room1} alt="habitacion" layout="responsive" width={260} height={250} />
               <div className={styles.titleAndPrice}>
                 <h5>Family Room</h5>
                 <span>$799</span>
@@ -24,14 +24,11 @@ const Departments = () => {
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Tincidunt leo et Loremuntur veritatis. Pariatur, natus facilis
-                aspernatur earum commodi placeat accusamus excepturi iure
-                officiis impedit assumenda saepe voluptatem numquam alias quos
-                quae!
               </p>
             </div>
 
             <div className={styles.departmentCard}>
-              <Image src={room1} alt="habitacion" />
+            <Image src={room1} alt="habitacion" layout="responsive" width={260} height={250} />
               <div className={styles.titleAndPrice}>
                 <h5>Family Room</h5>
                 <span>$799</span>
@@ -44,7 +41,7 @@ const Departments = () => {
             </div>
 
             <div className={styles.departmentCard}>
-              <Image src={room1} alt="habitacion" />
+            <Image src={room1} alt="habitacion" layout="responsive" width={260} height={250} />
               <div className={styles.titleAndPrice}>
                 <h5>Family Room</h5>
                 <span>$799</span>
@@ -52,7 +49,6 @@ const Departments = () => {
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Tincidunt nda architecto a corrupti quae, dignissimos non
-                fugiat. Incidunt, placeat quia?
               </p>
             </div>
           </div>

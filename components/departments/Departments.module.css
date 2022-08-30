@@ -34,17 +34,16 @@
 .departmentContainer {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
 }
 
 .departmentCard {
   display: flex;
   flex-direction: column;
-  gap: 2rem;
-  background-color: #1e2e3b;
+  gap: 1rem;
+  background-color: var(--card-color);
   border-radius: .5rem;
   padding: 0.7rem 0.7rem 2rem 0.7rem;
-  margin-right: 5%;
-  margin-bottom: 10%;
 }
 
 .departmentCard img {
@@ -65,15 +64,15 @@
 }
 
 .titleAndPrice h5 {
-  font-size: 2rem;
-  color: var(--cardTitle-color);
+  font-size: 1.5rem;
+  color: var( --title-color);
   font-weight: 700;
 }
 
 .titleAndPrice span {
-  font-size: 1.2rem;
-  background-color: var(--cardPrice-color);
-  padding: 0.5rem 4vh;
+  font-size: 1.1rem;
+  background-color: var(--subtitle-color);
+  padding: 0.5rem 0.7rem;
   border-radius: 0.5rem;
   font-weight: bold;
 }

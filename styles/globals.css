@@ -4,16 +4,15 @@
 }
 
 :root {
-  --title-color: #006ae8;
-  --subtitle-color: #9db3ce;
-  --cardTitle-color: #006ae8;
-  --cardPrice-color: #9db3ce;
-  --bg-color: #222526;
-  --white: #ffff;
+  --title-color: #f6a834;
+  --subtitle-color: #fdffff;
+  --card-color: #093c4c;
+  --white: #fdffff;
+  --bg-color: #000000;
 }
 
 body {
-  background-color: var(--bg-color);
+  background: var(--bg-color);
   color: #000;
   font-family: "Roboto", sans-serif;
   font-size: calc(15px + 0.390625vw);
@@ -45,4 +44,19 @@ body {
   margin: 0 auto;
 }
 
+
+.whastapp {
+  position: fixed;
+  right: 0rem;
+  bottom: .5rem;
+  width: 5rem;
+  transition: opacity 380ms ease;
+  z-index: 10;
+
+}
+
+.whastapp:hover {
+  cursor: pointer;
+  opacity: .8;
+}
 

@@ -1,6 +1,6 @@
 .footer {
   grid-area: footer;
-  background-color: var(--title-color);
+  background-color: var(--card-color);
   margin-top: 6rem;
 }
 
