@@ -9,7 +9,9 @@ import Instalations from "../components/instalations/Instalations";
 import Reviews from "../components/reviews/Reviews";
 import Slider from "../components/slider/Slider";
 import whatsapp from "../public/whatsapp.png";
-import Link from 'next/link'
+import { BsFillArrowUpCircleFill } from "react-icons/bs";
+
+import 'animate.css';
 
 export default function Home() {
   return (
@@ -21,14 +23,19 @@ export default function Home() {
         <link rel="icon" href="/favicons/favicon.png" />
       </Head>
 
-      <div className="contenedor">
+     
+      <div className="contenedor animate__animated animate__fadeIn">
         <Header />
         <Hero />
         <div className="whastapp">
-          <a href="https://wa.me/3516989361?text=holis" rel="noreferrer" target="_blank">
+          <a href="https://wa.me/3516989361?text=Hola, quiero reservar una habitacion. ¿Que disponibilidad hay?" rel="noreferrer" target="_blank">
           <Image alt="whatsapp" src={whatsapp} layout='responsive'/>
-          </a >
-        
+          </a >       
+        </div>
+        <div className="top">
+          <a href="#hero">
+          <BsFillArrowUpCircleFill/>
+          </a>
         </div>
         <Departments/>
         <Slider />

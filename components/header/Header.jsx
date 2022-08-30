@@ -15,23 +15,23 @@ const Header = () => {
 
         <ul className={styles.nav__links}>
           <li className={styles.nav__item}>
-            <a href="#" className={styles.nav__link}>
+            <a href="#hero" className={styles.nav__link}>
               Inicio
             </a>
           </li>
           <li className={styles.nav__item}>
-            <a href="#" className={styles.nav__link}>
-              Blog
+            <a href="#department" className={styles.nav__link}>
+              Departamentos
             </a>
           </li>
           <li className={styles.nav__item}>
-            <a href="#" className={styles.nav__link}>
-              Acerca de
+            <a href="#instalations" className={styles.nav__link}>
+             Instalaciones
             </a>
           </li>
           <li className={styles.nav__item}>
-            <a href="#" className={styles.nav__link}>
-              Contacto
+            <a href="#gallery" className={styles.nav__link}>
+              Galeria
             </a>
           </li>
         </ul>

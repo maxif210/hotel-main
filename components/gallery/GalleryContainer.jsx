@@ -6,7 +6,7 @@ import { photos } from "./photos";
 
 const GalleryContainer = () => {
   return (
-    <div className={styles.gallery}>
+    <div className={styles.gallery} id='gallery'>
     <div className="container">
     <div className={styles.titleContainer}>
           <h4>Galería</h4>

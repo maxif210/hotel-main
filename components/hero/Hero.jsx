@@ -3,13 +3,15 @@ import styles from "../hero/Hero.module.css";
 
 const Hero = () => {
   return (
-    <section className={styles.hero}>
+    <section className={styles.hero} id='hero'>
+      
       <div className="container">
         <div className={styles.promotion}>
           <h2>20% OFF</h2>
           <h3>Promociones Estadia + Cena</h3>
         </div>
       </div>
+    
     </section>
   );
 };

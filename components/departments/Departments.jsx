@@ -4,7 +4,7 @@ import room1 from "../../public/departments/room1.png";
 
 const Departments = () => {
   return (
-    <section className={styles.departments}>
+    <section className={styles.departments} id='department'>
       <div className="container">
         <div className={styles.departmentsContainer}>
           <div className={styles.titleContainer}>

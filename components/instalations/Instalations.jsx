@@ -12,7 +12,7 @@ import { IoGameController } from "react-icons/io5";
 
 const Instalations = () => {
   return (
-    <section className={styles.instalations}>
+    <section className={styles.instalations} id='instalations'>
       <div className="container">
         <div className={styles.instalationsContainer}>
           <div className={styles.titleContainer}>
