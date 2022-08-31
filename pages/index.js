@@ -28,7 +28,7 @@ export default function Home() {
         <Header />
         <Hero />
         <div className="whastapp">
-          <a href="https://wa.me/3516989361?text=Hola, quiero reservar una habitacion. ¿Que disponibilidad hay?" rel="noreferrer" target="_blank">
+          <a href="https://wa.me/5493541542320?text=Hola, quiero reservar una habitacion. ¿Que disponibilidad hay?" rel="noreferrer" target="_blank">
           <Image alt="whatsapp" src={whatsapp} layout='responsive'/>
           </a >       
         </div>
